@@ -50,6 +50,19 @@ nav ul li a:hover {
     background-color: black;
 }
 
+/*Container*/
+.container{
+    margin: 50px 10px;
+    text-align: center;
+}
+
+#sw1{
+    float: left;
+}
+#sw2{
+    float: right;
+}
+/*rodape*/
 footer{
     width: 100%;
     background-color: #cc470d;
@@ -57,4 +70,13 @@ footer{
     font-size: .9em;
     text-align: center;
     padding: 5px 0px;
+}
+
+/*Layout Responsivo - Telas com resolução superior a 
+576px*/
+
+@media(min-width:576px){
+    #sw1,#sw2{
+        float: none;
+    }   
 }
